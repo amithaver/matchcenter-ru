@@ -99,7 +99,7 @@ const pick = name => MAP.find(([re]) => re.test(name || '')) || [null, 'Друг
 let fixed = 0;
 for (const l of db.leagues) {
   if (l.country) continue;
-  const [, cname, cslug] = pick(l.name);
+  const [, cname, cslug] = pick(`${l.name} ${l.slug}`);
   l.country = cslug;
   if (!bySlug.has(cslug)) {
     const c = { slug: cslug, name: cname, confed: '' };
