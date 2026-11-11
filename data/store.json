@@ -2,7 +2,7 @@
   "settings": {
     "siteName": "Live Football",
     "tagline": "Мировой футбол: расписание, результаты, таблицы",
-    "siteUrl": "http://localhost:3000",
+    "siteUrl": "https://live-football-dd6b.onrender.com",
     "email": "",
     "defaultCountry": "cuba"
   },
