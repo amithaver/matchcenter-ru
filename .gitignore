@@ -3,3 +3,5 @@ data/store.json.tmp
 .env
 *.log
 .DS_Store
+tools/*.exe
+tools/*.log
