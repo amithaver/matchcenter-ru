@@ -233,3 +233,5 @@ h1{margin-bottom:12px}
 .card{position:relative;overflow:hidden}
 .card::after{content:'';position:absolute;right:-30px;bottom:-30px;width:90px;height:90px;border-radius:50%;background:rgba(62,224,127,.06)}
 table.standings tbody tr:first-child td:first-child{border-left:3px solid var(--accent)}
+
+.cover{max-height:300px;width:100%;object-fit:cover}

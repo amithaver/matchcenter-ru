@@ -12,6 +12,7 @@ const HOST = process.env.HOST || (process.env.RENDER || process.env.PORT ? '0.0.
 const PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
 const SESSION_TTL = 12 * 60 * 60 * 1000;
 const sessions = new Map();
+const pageCache = new Map();
 
 const MIME = { '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.txt': 'text/plain; charset=utf-8' };
 
@@ -55,6 +56,10 @@ function readBody(req) {
 const parseForm = body => Object.fromEntries(new URLSearchParams(body));
 
 function send(res, status, body, headers = {}) {
+  if (status === 200 && typeof body === 'string' && body.startsWith('<!doctype') && res._p) {
+    if (pageCache.size > 800) pageCache.clear();
+    pageCache.set(res._p, body);
+  }
   const buf = Buffer.isBuffer(body) ? body : Buffer.from(body, 'utf8');
   res.writeHead(status, { 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': buf.length, 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Referrer-Policy': 'strict-origin-when-cross-origin', ...headers });
   res.end(buf);
@@ -87,6 +92,10 @@ async function handle(req, res) {
   const url = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
   const p = url.pathname.replace(/\/+$/, '') || '/';
   const db = store.get();
+  res._p = p;
+  if (method === 'GET' && pageCache.has(p)) {
+    return send(res, 200, pageCache.get(p), { 'Cache-Control': 'public, max-age=300' });
+  }
   const method = req.method;
 
   if (p === '/app.css' || p === '/favicon.svg' || p.startsWith('/covers/')) {
