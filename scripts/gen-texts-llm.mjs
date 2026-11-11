@@ -54,6 +54,10 @@ let ok = 0, fail = 0;
 for (const m of targets) {
   const h = team(m.home), a = team(m.away), l = league(m.league), c = country(l?.country);
   const rh = row(m.league, m.home), ra = row(m.league, m.away);
+  const hh = db.matches
+    .filter(x => x.status === 'finished' && ((x.home === m.home && x.away === m.away) || (x.home === m.away && x.away === m.home)))
+    .sort((a, b) => new Date(a.date) - new Date(b.date)).slice(-3)
+    .map(x => `${x.scoreHome}:${x.scoreAway}`);
   const facts = [
     `Турнир: ${l?.name || ''} (${c?.name || ''})`,
     `Дата: ${new Date(m.date).toLocaleString('ru-RU', { timeZone: 'Europe/Moscow', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })} МСК`,
@@ -62,7 +66,8 @@ for (const m of targets) {
     rh ? `${h?.name}: ${rh.rank}-е место, ${rh.pts} очков в ${rh.played} играх` : '',
     ra ? `${a?.name}: ${ra.rank}-е место, ${ra.pts} очков в ${ra.played} играх` : '',
     `Форма ${h?.name}: ${formOf(m.home) || 'нет данных'}`,
-    `Форма ${a?.name}: ${formOf(m.away) || 'нет данных'}`
+    `Форма ${a?.name}: ${formOf(m.away) || 'нет данных'}`,
+    hh.length ? `Очные встречи (последние): ${hh.join(', ')}` : 'Очных встреч в базе нет'
   ].filter(Boolean).join('\n');
 
   try {
