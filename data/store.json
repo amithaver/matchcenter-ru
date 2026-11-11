@@ -420893,10 +420893,10 @@
       "venue": "Estadio VGD",
       "city": "Londrina",
       "events": [],
-      "preview": "",
+      "preview": "Лондрина примет Наутико на стадионе Estadio VGD в рамках Brazil Serie B. Матч стартует 12 ноября в 01:00 по московскому времени.\n\nЛондрина демонстрирует стабильную форму — четыре победы подряд и ни одного поражения в последних пяти встречах. Наутико приезжает с показателем две победы, две ничьи и одно поражение за тот же период.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:32:54.075Z"
     },
     {
       "id": 8065,
@@ -420912,10 +420912,10 @@
       "venue": "Estadio Olímpico Patria",
       "city": "Cochabamba",
       "events": [],
-      "preview": "",
+      "preview": "12 ноября в 01:00 МСК на стадионе «Estadio Olímpico Patria» в Кочабамбе «Индепендиенте петролеро» примет «Алвайс реади» в рамках турнира ASEAN Champ. Хозяева подходят к игре в серии из четырёх матчей без поражений (ПВНПП), а гости чередуют результаты: за последние пять встреч у них одна победа, две ничьи и два поражения (НПВНВ).\n\nМатч пройдёт на высоте Кочабамбы, что традиционно влияет на темп и физическую отдачу команд. «Индепендиенте» стабильнее на своем поле, тогда как «Алвайс реади» ищет игровой ритм в выездных поединках.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:33:36.810Z"
     },
     {
       "id": 8074,
@@ -420931,10 +420931,10 @@
       "venue": "Hunter Stadium",
       "city": "St. Charles",
       "events": [],
-      "preview": "",
+      "preview": "Хорошо, мне нужно написать анонс матча на русском, 55-75 слов, два коротких абзаца. Только факты, без ставок, коэффициентов, прогнозов, штампов и воды.\n\nСначала проверю данные: турнир NCAAM Soccer (США), дата 12 ноября в 01:00 МСК, команды Линденвуд и Хоустон чристиан, стадион Hunter Stadium, St. Charles. Форма Линденвуд — ВВВВВ (последние матчи все победы), Хоустон чристиан — ННВНП (последние матчи: два неудачи, победа, два неудачи, победа).\n\nНужно уложиться в 55-75 слов. Два абзаца. Первый абзац, наверное, о дате, месте, турнир, команды. Второй — про формы команд.\n\nПроверю количество слов. Надо быть внимательным.\n\nПервый абзац: \"12 ноября в 01:00 МСК состоится матч NCAAM Soccer между Линденвудом и Хоустон чристиан в Hunter Stadium (St. Charles).\"\n\nПосчитаю слова: 12, ноября, в, 01:00, МСК, состоится, матч, NCAAM, Soccer, между, Линденвудом, и, Хоустон, чристиан, в, Hunter, Stadium, (St. Charles). Вроде 15 слов. Но нужно два абзаца, значит, первый абзац короче.\n\nВторой абзац: \"Линденвуд в отличной форме, выиграв последние четыре матча. Хоустон чристиан неудачно завершил серию из пяти матчей: две неудачи, победа, две неудачи, победа.\"\n\nПроверю формы: ВВВВВ — значит, четыре победы подряд. ННВНП — два неудачи, победа,",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:34:42.309Z"
     },
     {
       "id": 8075,
@@ -420969,10 +420969,10 @@
       "venue": "Bill Stephens Track/Soccer Complex",
       "city": "Conway",
       "events": [],
-      "preview": "",
+      "preview": "The user wants a match preview (announcement) for a women's college soccer game (NCAAW).\nConstraints:\n- Role: Sports editor.\n- Language: Russian.\n- Length: 55-75 words.\n- Structure: Two short paragraphs.\n- Content: Only facts from provided data. No inventions, no betting odds, no money predictions, no clichés/fluff.\n- Data provided: Tournament, Date/Time (MSK), Teams, Stadium, Form guides (W=Win, L=Loss, D=Draw? Usually W/L/T or W/L/D. Here: Н=Непобеда? No, standard Russian sports notation: П=Победа (Win), Н=Поражение (Loss), Н=Ничья (Draw). Wait. \"НВВ\" and \"ВНВП\".\nLet's decode:\nStandard Russian abbreviations:\nП - Победа (Win)\nН - Ничья (Draw) OR Поражение (Loss). Usually П/Н/П (Win/Draw/Loss).\nBut here we have \"НВВ\" and \"ВНВП\".\n\"В\" usually stands for Победа (Win) -> \"В\" from \"Выигрыш\" or just Latin W? No, Russian context.\n\"Н\" usually stands for Поражение (Loss) -> \"Н\" from \"Неудача\" or \"Поражение\" starts with P. Wait.\nStandard Russian sports stats: **П** (Победа), **Н** (Ничья), **П** (Поражение).\nHowever, sometimes in condensed form: **В** (Выигрыш/Победа), **П** (Поражение), **Н** (Ничья).\nLet's look at the strings: \"НВВ\" and \"ВНВП\".\nIf В = Win (Победа), Н = Loss (Поражение) or Draw (Ничья).\nAbilene: НВВ. If Н=Loss, then Loss, Win, Win.\nNorth Alabama: ВНВП. Win, Loss, Win, Loss.\nThis makes sense for \"Form\" (last 3",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:15.972Z"
     },
     {
       "id": 8095,
@@ -420988,10 +420988,10 @@
       "venue": "Festival Foods Field at Aldo Santaga Stadium",
       "city": "Green Bay",
       "events": [],
-      "preview": "",
+      "preview": "Во втором туре NCAAW Soccer 12 ноября в 01:00 МСК на стадионе Festival Foods Field at Aldo Santaga Stadium в Грин-Бей встретятся «Грин баи» и «Иу индианаполис».\n\n«Грин баи» подходит к матчу с формулой НВНПП (две победы, три поражения). «Иу индианаполис» демонстрирует форму ПВВНВ (три победы, одна победа, одно поражение).",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:23.139Z"
     },
     {
       "id": 8096,
@@ -421007,10 +421007,10 @@
       "venue": "Engelmann Stadium",
       "city": "Milwaukee",
       "events": [],
-      "preview": "",
+      "preview": "Матч турнира NCAAW Soccer пройдет 12 ноября в 01:00 МСК на стадионе Engelmann Stadium в Милвауки. Встречают Милвауки и Вригхт стате.\n\nМилвауки подходит к матчу в отличной форме, одержав пять побед подряд. Вригхт стате показывает нестабильный результат: две победы чередуются с тремя ничьими. В последних пяти встречах этой команды три матча закончились вничью.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:30.103Z"
     },
     {
       "id": 8097,
@@ -421026,10 +421026,10 @@
       "venue": "Foley Sports Tourism Complex",
       "city": "Foley",
       "events": [],
-      "preview": "",
+      "preview": "В воскресенье, 12 ноября в 01:00 МСК, на Foley Sports Tourism Complex в Фоли состоится матч NCAAW Soccer. Олд доминион принимая Апп стате, команда хозяев демонстрирует нестабильную серию: победа, победа, ничья, поражение, победа.\n\nГости также показывают переменчивую форму: победа, поражение, победа, ничья, победа. Обе команды завершили последние пять встреч с тремя победами, что обещает напряженную борьбу на поле.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:31.552Z"
     },
     {
       "id": 8098,
@@ -421045,10 +421045,10 @@
       "venue": "GCU Stadium",
       "city": "Phoenix, Arizona",
       "events": [],
-      "preview": "",
+      "preview": "Двенадцатого ноября в 01:00 по московскому времени в Финиксе, штат Аризона, на стадионе «GCU Stadium» пройдет матч женского студенческого футбольного турнира NCAAW в США между командами Вйоминг и Хаваии. \n\nК очной встрече соперники подошли с разной текущей серией результатов. Вйoминг выиграл четыре последних матча подряд (ВВВВ), тогда как Хаваии имеют в своем активе одну победу (В).",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:33.685Z"
     },
     {
       "id": 8099,
@@ -421064,10 +421064,10 @@
       "venue": "Maryland SoccerPlex",
       "city": "Boyds, Maryland",
       "events": [],
-      "preview": "",
+      "preview": "The user wants a match preview (announcement) for a women's NCAA soccer match.\nConstraints:\n- Role: Sports editor.\n- Language: Russian.\n- Length: 55-75 words.\n- Structure: Two short paragraphs.\n- Content: Only facts from provided data. No inventions, no betting odds, no money predictions, no clichés/fluff.\n- Data provided:\n    - Tournament: NCAAW Soccer (USA)\n    - Date: Nov 12, 01:00 MSK\n    - Match: Xavier vs Marquette\n    - Venue: Maryland SoccerPlex, Boyds, Maryland\n    - Xavier form: L L W W W (ННВВВ)\n    - Marquette form: W L W W W (ПВППП) -> Wait, \"П\" usually means Draw (Победил? No, usually П = Победа (Win), Н = Поражение (Loss), Н = Ничья (Draw). Let's check standard Russian sports abbreviations.\n    - Standard: В = Победа (Win), Н = Ничья (Draw), П = Поражение (Loss). OR В/П/Н.\n    - Let's look at the strings: \"ННВВВ\" and \"ПВППП\".\n    - If В = Win (Победа), Н = Loss (Поражение), П = Draw (Ничья)? No, usually П = Поражение (Loss), Н = Ничья (Draw), В = Победа (Win).\n    - Let's assume standard Russian notation: **В** (победа), **Н** (ничья), **П** (поражение).\n    - Xavier: ННВВВ -> Loss, Loss, Win, Win, Win. (3 wins streak).\n    - Marquette: ПВППП -> Loss, Win, Loss, Loss, Loss? That's 1 win in 5.\n    - Alternative notation: П = Победа (Win), Н = Непобеда? No.\n    - Most common in Russian sports stats: **П** (побе",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:52.790Z"
     },
     {
       "id": 8100,
@@ -421083,10 +421083,10 @@
       "venue": "Texas Health Mansfield Stadium",
       "city": "Mansfield",
       "events": [],
-      "preview": "",
+      "preview": "В матче женской NCAAW Soccer BYU примет Colorado. Встреча состоится 12 ноября в 01:30 МСК на стадионе Texas Health Mansfield Stadium в Менсфилде. Команды подходят к игре с разными тенденциями в последних турах.\n\nФорма BYU выглядит нестабильно: победы и ничья чередуются с поражениями (ПВВНВ). Colorado демонстрирует уверенную серию из четырех побед подряд (ВВВВ). Статистика последних пяти встреч указывает на различный уровень текущей формы соперников.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:54.221Z"
     },
     {
       "id": 8101,
@@ -421102,10 +421102,10 @@
       "venue": "Malek Stadium at Clinton Field",
       "city": "West Point",
       "events": [],
-      "preview": "",
+      "preview": "В субботу, 12 ноября в 02:00 МСК, на Malek Stadium at Clinton Field в Вест-Пойнте состоится матч NCAAW Soccer. Арми примет Бостон университет.\n\nФорма команд перед игрой: у Арми последовательность ППНВП, у Бостон университета — ВНВПВ.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:55.205Z"
     },
     {
       "id": 8102,
@@ -421121,10 +421121,10 @@
       "venue": "Chuck & Gloria Bell Soccer Field",
       "city": "Logan",
       "events": [],
-      "preview": "",
+      "preview": "Сегодня в 02:00 по московскому времени на стадионе Chuck & Gloria Bell Soccer Field в Логане состоится матч женской лиги NCAAW. Встретятся команды Boise State и San Diego State.\n\nBoise State подходит к игре после двух побед подряд. Их соперники из Сан-Диего оформили серию из четырех матчей без побед, включая три ничьи и одно поражение.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:35:56.306Z"
     },
     {
       "id": 8103,
@@ -421140,10 +421140,10 @@
       "venue": "Merlo Field at the Clive Charles Soccer Complex",
       "city": "Portland, Oregon",
       "events": [],
-      "preview": "",
+      "preview": "12 ноября в 02:00 МСК на Merlo Field в Портленде состоится поединок NCAAW Soccer. Лойола маримоунт принимает Санта клара. Команды подходят к игре с разными результатами последних пяти встреч.\n\nЛойола маримоунт оформила серию из двух побед и ничьей, что отражено в форме ПНПВВ. Соперник демонстрирует нестабильную игру: Санта клара чередует победы и поражения (ВППВП). Итог матча станет известен после финального свистка.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.735Z"
+      "updatedAt": "2026-11-11T21:35:57.428Z"
     },
     {
       "id": 8076,
@@ -421159,10 +421159,10 @@
       "venue": "Bob Ford Field at Tom & Mary Casey Stadium",
       "city": "Albany",
       "events": [],
-      "preview": "",
+      "preview": "Сегодня в 02:30 МСК в рамках NCAAM Soccer в Албани состоится встреча Уалбани и Нхит. Матч пройдет на стадионе Bob Ford Field at Tom & Mary Casey Stadium. Обе команды подходят к игре с нестабильной формой.\n\nУалбани демонстрирует смешанные результаты: победа, ничья, выигрыш, выигрыш и поражение. Нхит также чередует успехи и неудачи: победа, ничья, два поражения и победа. Статистика последних пяти туров показывает равную борьбу.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:35:58.496Z"
     },
     {
       "id": 8042,
@@ -421178,10 +421178,10 @@
       "venue": "Audi Field",
       "city": "Washington, District of Columbia",
       "events": [],
-      "preview": "",
+      "preview": "В воскресенье, 12 ноября в 03:00 МСК, на стадионе Audi Field в Вашингтоне состоится игра USL Super League. Соперниками станут Дк повер фк и Бруклйн фк. Матч пройдет при пустых трибунах или с ограниченным доступом, как принято в этом турнире.\n\nФормы команд сильно различаются. Дк повер фк выиграл три последних матча, пропустив поражение в середине отрезка. Бруклйн фк завершил серию из двух поражений ничьей, перед тем как вновь уступить в прошлом туре.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.731Z"
+      "updatedAt": "2026-11-11T21:35:59.568Z"
     },
     {
       "id": 8077,
@@ -421197,10 +421197,10 @@
       "venue": "Cochrane Soccer Stadium",
       "city": "Bowling Green, Ohio",
       "events": [],
-      "preview": "",
+      "preview": "Бовлинг грин и Уик встретятся 12 ноября в 03:00 МСК в рамках NCAAM Soccer. Игрой станет Cochrane Soccer Stadium в Огайо. Команды подходят к поединку с различной динамикой последних встреч.\n\nФорма Бовлинг грин: ННВНВ. Серия Уик: ВНППП. Статистика последних пяти туров демонстрирует нестабильность обоих коллективов. Встреча пройдет на домашнем поле Бовлинг грин.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:36:00.676Z"
     },
     {
       "id": 8078,
@@ -421216,10 +421216,10 @@
       "venue": "Arad McCutchan Stadium",
       "city": "Evansville",
       "events": [],
-      "preview": "",
+      "preview": "12 ноября в 03:00 МСК на Arad McCutchan Stadium в Эвансвиле состоится встреча команд NCAAM Soccer. Подопечные местных владельцев площадки принимают Вестерн Мичиган в рамках текущего сезона соревнований.\n\nЕвансвиле подходит к игре после серии из пяти матчей с одним победным результатом. Их соперник демонстрирует более стабильную форму, выиграв четыре последних поединка при одной поражении.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:36:01.694Z"
     },
     {
       "id": 8079,
@@ -421235,10 +421235,10 @@
       "venue": "Martone-Mejail Field",
       "city": "North Andover",
       "events": [],
-      "preview": "",
+      "preview": "Сегодня в 03:00 по московскому времени в рамках NCAAM Soccer на стадионе Martone-Mejail Field в North Andover состоится матч между Фаирфиелдом и Мерримак. Команды встретятся 12 ноября в поединке, где обе стороны демонстрируют нестабильные результаты в последних турах.\n\nФаирфиелд завершил предыдущие игры с записью ВНППН. Мерримак также показывает перепады в форме, его серия выглядит как ППНПВ. Встреча пройдет на нейтральном для болельщиков поле в штате Массачусетс.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:36:02.804Z"
     },
     {
       "id": 8080,
@@ -421254,10 +421254,10 @@
       "venue": "Stanley H. Durwood Soccer Stadium & Recreational Field",
       "city": "Kansas City, Missouri",
       "events": [],
-      "preview": "",
+      "preview": "Двенадцатого ноября в 03:00 по московскому времени в рамках турнира NCAAM Soccer (США) начнется матч между командами Кансас сти и Ст томас. Встреча пройдет в городе Канзас-Сити, штат Миссури, на стадионе Stanley H. Durwood Soccer Stadium & Recreational Field.\n\nПоследние результаты хозяев поля, команды Кансас сти, состоят из ничьей, победы, ничьей, победы и ничьей. Гости из Ст томас подошли к этой игре со следующей серией матчей: победа, поражение, победа, победа и ничья.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:36:05.084Z"
     },
     {
       "id": 8081,
@@ -421273,10 +421273,10 @@
       "venue": "Tenney Stadium at Leonidoff Field",
       "city": "Poughkeepsie",
       "events": [],
-      "preview": "",
+      "preview": "Матч турнира NCAAM Soccer между «Марист» и «Сакред хеарт» пройдет 12 ноября в 03:00 МСК на стадионе Tenney Stadium at Leonidoff Field в Покипси.\n\nКоманда «Марист» придет в игру с формой ППВПВ. Гости, «Сакред хеарт», демонстрируют серию из трех побед подряд, их форма — НВВВН.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:36:12.026Z"
     },
     {
       "id": 8082,
@@ -421292,10 +421292,10 @@
       "venue": "Hoops Family Field",
       "city": "Huntington",
       "events": [],
-      "preview": "",
+      "preview": "В рамках турнира NCAAM Soccer 12 ноября в 03:00 МСК на стадионе Hoops Family Field в Хантингтоне сыграют команды «Маршал» и «Южная Каролина».\n\nПоследние пять матчей «Маршал» завершили с результатом ВПВВП. Команда из Южной Каролины в своих последних пяти встречах показала результат ВВППВ.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:36:18.490Z"
     },
     {
       "id": 8083,
@@ -421311,10 +421311,10 @@
       "venue": "Virtue Field",
       "city": "Burlington, Vermont",
       "events": [],
-      "preview": "",
+      "preview": "Во вторник, 12 ноября, в 03:00 МСК на стадионе Virtue Field в Берлингтоне пройдет матч NCAAM Soccer между «Вермонтом» и «Брйант».\n\nФорма «Вермонта» — ВНННВ. У «Брйанта» серия из четырех побед подряд, формула — ВВВВН.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.733Z"
+      "updatedAt": "2026-11-11T21:37:25.177Z"
     },
     {
       "id": 8084,
@@ -421330,10 +421330,10 @@
       "venue": "Dick Dlesk Soccer Stadium",
       "city": "Morgantown",
       "events": [],
-      "preview": "",
+      "preview": "Вест Вирджиния примет Коастал Каролину в матче турнира NCAAM Soccer. Игра запланирована на 12 ноября в 03:00 МСК на Dick Dlesk Soccer Stadium в Моргантауне.\n\nКоманда Вест Вирджиния подходит к матчу с формой ВВВВН, демонстрируя серию побед. Коастал Каролина имеет форму НВППВ, показывая нестабильные результаты в последних встречах.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.734Z"
+      "updatedAt": "2026-11-11T21:37:32.281Z"
     },
     {
       "id": 8104,
@@ -421349,10 +421349,10 @@
       "venue": "Baujan Field",
       "city": "Dayton",
       "events": [],
-      "preview": "",
+      "preview": "Матч турнира NCAAW Soccer между Дайтон и Бо сале пройдет 12 ноября в 03:00 МСК на стадионе Baujan Field в Дайтоне.\n\nФорма Дайтон: выигрыш, выигрыш, выигрыш, поражение, выигрыш. Форма Бо сале: поражение, поражение, выигрыш, поражение, выигрыш.",
       "report": "",
       "source": "espn",
-      "updatedAt": "2026-11-11T20:39:31.735Z"
+      "updatedAt": "2026-11-11T21:37:38.437Z"
     },
     {
       "id": 8105,
