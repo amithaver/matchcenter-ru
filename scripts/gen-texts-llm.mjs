@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 const BASE = process.env.LLM_BASE || 'http://127.0.0.1:31415/v1';
 const KEY = process.env.LLM_KEY;
-const MODEL = process.env.LLM_MODEL || 'auto:fast';
+const MODEL = process.env.LLM_MODEL || 'auto';
 if (!KEY) { console.error('нет LLM_KEY'); process.exit(1); }
 
 const FILE = 'data/store.json';
@@ -39,9 +39,15 @@ async function gen(text) {
   return (j.choices?.[0]?.message?.content || '').trim().replace(/^["«]|["»]$/g, '');
 }
 
+const TOP = new Set(['england','spain','italy','germany','france','russia','ukraine','portugal','netherlands','turkey','belgium']);
+const lgCountry = m => db.leagues.find(l => l.slug === m.league)?.country || '';
 const targets = db.matches
   .filter(m => m.status !== 'finished' && !m.preview && new Date(m.date) > new Date())
-  .sort((a, b) => new Date(a.date) - new Date(b.date))
+  .sort((a, b) => {
+    const pa = TOP.has(lgCountry(a)) ? 0 : 1, pb = TOP.has(lgCountry(b)) ? 0 : 1;
+    if (pa !== pb) return pa - pb;
+    return new Date(a.date) - new Date(b.date);
+  })
   .slice(0, LIMIT);
 
 let ok = 0, fail = 0;
@@ -61,9 +67,10 @@ for (const m of targets) {
 
   try {
     const text = await gen(`Ты спортивный редактор. Напиши анонс матча на русском: 55–75 слов, два коротких абзаца.
-Только факты из данных, ничего не выдумывай. Без ставок, коэффициентов и прогнозов на деньги. Без штампов и воды.
+Только факты из данных, ничего не выдумывай. Без ставок, коэффициентов и прогнозов на деньги. Без штампов и воды. Отвечай ТОЛЬКО текстом анонса, без пояснений и рассуждений.
 Данные:\n${facts}`);
     if (text.length < 60) throw new Error('слишком короткий');
+    if (/[A-Za-z]{4,}\s+[A-Za-z]{4,}\s+[A-Za-z]{4,}/.test(text)) throw new Error('латиница/рассуждения в ответе');
     m.preview = text;
     m.updatedAt = new Date().toISOString();
     ok++;
