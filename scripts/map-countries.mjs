@@ -4,6 +4,19 @@ const FILE = 'data/store.json';
 const db = JSON.parse(fs.readFileSync(FILE, 'utf8'));
 
 const MAP = [
+  [/keuken|knvb/i, 'Нидерланды', 'netherlands'],
+  [/laliga/i, 'Испания', 'spain'],
+  [/ligue 2/i, 'Франция', 'france'],
+  [/ncaa|nwsl|college cup/i, 'США', 'usa'],
+  [/spfl/i, 'Шотландия', 'scotland'],
+  [/expansi[oó]n/i, 'Мексика', 'mexico'],
+  [/liga fpd/i, 'Коста-Рика', 'costa-rica'],
+  [/futve/i, 'Венесуэла', 'venezuela'],
+  [/asean/i, 'Азия', 'asia'],
+  [/carabao/i, 'Англия', 'england'],
+  [/gamper/i, 'Испания', 'spain'],
+  [/ucl|uel/i, 'Европа', 'europe'],
+  [/wwcq/i, 'Мир', 'world'],
   [/english|england|efl|fa cup|community shield/i, 'Англия', 'england'],
   [/spanish|spain|la liga|copa del rey|supercopa/i, 'Испания', 'spain'],
   [/italian|italy|serie a|coppa italia/i, 'Италия', 'italy'],
@@ -98,7 +111,8 @@ const pick = name => MAP.find(([re]) => re.test(name || '')) || [null, 'Друг
 
 let fixed = 0;
 for (const l of db.leagues) {
-  if (l.country) continue;
+  if (l.country && l.country !== 'other') continue;
+  l.country = '';
   const [, cname, cslug] = pick(`${l.name} ${l.slug}`);
   l.country = cslug;
   if (!bySlug.has(cslug)) {
