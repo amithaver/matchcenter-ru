@@ -8,7 +8,7 @@ import * as view from './lib/view.mjs';
 const ROOT = import.meta.dirname;
 const PUBLIC = path.join(ROOT, 'public');
 const PORT = Number(process.env.PORT || 3000);
-const HOST = process.env.HOST || '127.0.0.1';
+const HOST = process.env.HOST || (process.env.RENDER || process.env.PORT ? '0.0.0.0' : '127.0.0.1');
 const PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
 const SESSION_TTL = 12 * 60 * 60 * 1000;
 const sessions = new Map();
