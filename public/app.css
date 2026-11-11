@@ -164,3 +164,9 @@ body{background-image:radial-gradient(1200px 620px at 78% -18%,rgba(62,224,127,.
 .ad-box{min-height:90px;display:flex;align-items:center;justify-content:center;border-radius:9px;color:#62746b;font-size:12px;
   background:repeating-linear-gradient(135deg,rgba(255,255,255,.028) 0 10px,transparent 10px 20px)}
 @media(max-width:620px){.hero{padding:24px 18px}.ad-box{min-height:70px}}
+
+/* ===== flags ===== */
+.flag{border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.16);display:inline-block;vertical-align:-3px;flex:0 0 auto}
+.flag.lg{width:32px;height:21px;margin-right:10px;vertical-align:-5px;border-radius:4px}
+.ct{display:flex;align-items:center;gap:9px;margin-bottom:5px}
+.tile .ct b{display:inline}
