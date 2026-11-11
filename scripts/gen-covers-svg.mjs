@@ -43,10 +43,8 @@ for (const m of targets) {
     <circle cx="1012" cy="337" r="5" fill-opacity=".6"/>
   </g>
   <rect width="1200" height="675" fill="url(#v)"/>
-  <text x="60" y="600" font-family="Inter,system-ui,sans-serif" font-size="34" font-weight="700"
-        fill="#ffffff" fill-opacity=".92">${escapeXml(team(m.home)?.name || m.home)} — ${escapeXml(team(m.away)?.name || m.away)}</text>
-  <text x="60" y="640" font-family="Inter,system-ui,sans-serif" font-size="22"
-        fill="#ffffff" fill-opacity=".7">${escapeXml(l?.name || '')}</text>
+  <text x="60" y="612" font-family="Inter,system-ui,sans-serif" font-size="26" font-weight="600"
+        fill="#ffffff" fill-opacity=".75">${escapeXml(l?.name || '')}</text>
 </svg>`;
   fs.writeFileSync(`${OUT}/${m.slug}.svg`, svg);
   m.cover = `/covers/${m.slug}.svg`;
