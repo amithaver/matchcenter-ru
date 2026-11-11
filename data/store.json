@@ -1,0 +1,370 @@
+{
+  "settings": {
+    "siteName": "Футбол России",
+    "tagline": "Матч-центр РПЛ: расписание, результаты, анонсы",
+    "siteUrl": "http://localhost:3000",
+    "league": "РПЛ",
+    "region": "Россия",
+    "email": "info@example.ru"
+  },
+  "teams": [
+    {
+      "id": 1,
+      "slug": "zenit",
+      "name": "Зенит",
+      "city": "Санкт-Петербург",
+      "stadium": "Газпром Арена"
+    },
+    {
+      "id": 2,
+      "slug": "spartak",
+      "name": "Спартак",
+      "city": "Москва",
+      "stadium": "Лукойл Арена"
+    },
+    {
+      "id": 3,
+      "slug": "cska",
+      "name": "ЦСКА",
+      "city": "Москва",
+      "stadium": "ВЭБ Арена"
+    },
+    {
+      "id": 4,
+      "slug": "dynamo-moscow",
+      "name": "Динамо",
+      "city": "Москва",
+      "stadium": "ВТБ Арена"
+    },
+    {
+      "id": 5,
+      "slug": "lokomotiv",
+      "name": "Локомотив",
+      "city": "Москва",
+      "stadium": "РЖД Арена"
+    },
+    {
+      "id": 6,
+      "slug": "krasnodar",
+      "name": "Краснодар",
+      "city": "Краснодар",
+      "stadium": "Краснодар"
+    },
+    {
+      "id": 7,
+      "slug": "rostov",
+      "name": "Ростов",
+      "city": "Ростов-на-Дону",
+      "stadium": "Ростов Арена"
+    },
+    {
+      "id": 8,
+      "slug": "rubin",
+      "name": "Рубин",
+      "city": "Казань",
+      "stadium": "Ак Барс Арена"
+    },
+    {
+      "id": 9,
+      "slug": "akhmat",
+      "name": "Ахмат",
+      "city": "Грозный",
+      "stadium": "Ахмат Арена"
+    },
+    {
+      "id": 10,
+      "slug": "krylia",
+      "name": "Крылья Советов",
+      "city": "Самара",
+      "stadium": "Солидарность Самара Арена"
+    },
+    {
+      "id": 11,
+      "slug": "baltika",
+      "name": "Балтика",
+      "city": "Калининград",
+      "stadium": "Ростех Арена"
+    },
+    {
+      "id": 12,
+      "slug": "akron",
+      "name": "Акрон",
+      "city": "Тольятти",
+      "stadium": "Солидарность Самара Арена"
+    },
+    {
+      "id": 13,
+      "slug": "dynamo-makhachkala",
+      "name": "Динамо Махачкала",
+      "city": "Махачкала",
+      "stadium": "Анжи Арена"
+    },
+    {
+      "id": 14,
+      "slug": "pari-nn",
+      "name": "Пари НН",
+      "city": "Нижний Новгород",
+      "stadium": "Нижний Новгород"
+    },
+    {
+      "id": 15,
+      "slug": "orenburg",
+      "name": "Оренбург",
+      "city": "Оренбург",
+      "stadium": "Газовик"
+    },
+    {
+      "id": 16,
+      "slug": "sochi",
+      "name": "Сочи",
+      "city": "Сочи",
+      "stadium": "Фишт"
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "slug": "zenit-spartak-2026-11-07",
+      "home": "zenit",
+      "away": "spartak",
+      "date": "2026-11-07T19:00:00+03:00",
+      "tour": 15,
+      "status": "finished",
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "venue": "Газпром Арена",
+      "preview": "",
+      "report": "Зенит обыграл Спартак в центральном матче тура. Хозяева открыли счёт в первом тайме, гости сравняли после перерыва, но победу петербуржцы вырвали на последних минутах.",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 2,
+      "slug": "cska-krasnodar-2026-11-08",
+      "home": "cska",
+      "away": "krasnodar",
+      "date": "2026-11-08T17:30:00+03:00",
+      "tour": 15,
+      "status": "finished",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "ВЭБ Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 3,
+      "slug": "dynamo-moscow-lokomotiv-2026-11-09",
+      "home": "dynamo-moscow",
+      "away": "lokomotiv",
+      "date": "2026-11-09T19:45:00+03:00",
+      "tour": 15,
+      "status": "finished",
+      "scoreHome": 0,
+      "scoreAway": 2,
+      "venue": "ВТБ Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 4,
+      "slug": "rostov-rubin-2026-11-14",
+      "home": "rostov",
+      "away": "rubin",
+      "date": "2026-11-14T16:00:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Ростов Арена",
+      "preview": "«Ростов» принимает «Рубин»: обе команды ведут борьбу за место в верхней половине таблицы. Матч 16-го тура РПЛ пройдёт на «Ростов Арене».",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 5,
+      "slug": "akhmat-krylia-2026-11-14",
+      "home": "akhmat",
+      "away": "krylia",
+      "date": "2026-11-14T18:30:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Ахмат Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 6,
+      "slug": "baltika-akron-2026-11-15",
+      "home": "baltika",
+      "away": "akron",
+      "date": "2026-11-15T14:00:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Ростех Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 7,
+      "slug": "zenit-cska-2026-11-15",
+      "home": "zenit",
+      "away": "cska",
+      "date": "2026-11-15T18:30:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Газпром Арена",
+      "preview": "«Зенит» и ЦСКА встречаются в Петербурге. Для обеих команд это ключевой матч в борьбе за высокие места по итогам первого круга.",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 8,
+      "slug": "spartak-dynamo-moscow-2026-11-16",
+      "home": "spartak",
+      "away": "dynamo-moscow",
+      "date": "2026-11-16T19:00:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Лукойл Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 9,
+      "slug": "krasnodar-lokomotiv-2026-11-16",
+      "home": "krasnodar",
+      "away": "lokomotiv",
+      "date": "2026-11-16T19:30:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Краснодар",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 10,
+      "slug": "pari-nn-orenburg-2026-11-17",
+      "home": "pari-nn",
+      "away": "orenburg",
+      "date": "2026-11-17T17:00:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Нижний Новгород",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 11,
+      "slug": "sochi-dynamo-makhachkala-2026-11-17",
+      "home": "sochi",
+      "away": "dynamo-makhachkala",
+      "date": "2026-11-17T19:00:00+03:00",
+      "tour": 16,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Фишт",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 12,
+      "slug": "rubin-spartak-2026-11-21",
+      "home": "rubin",
+      "away": "spartak",
+      "date": "2026-11-21T16:00:00+03:00",
+      "tour": 17,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "Ак Барс Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 13,
+      "slug": "cska-rostov-2026-11-22",
+      "home": "cska",
+      "away": "rostov",
+      "date": "2026-11-22T18:00:00+03:00",
+      "tour": 17,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "ВЭБ Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    },
+    {
+      "id": 14,
+      "slug": "lokomotiv-zenit-2026-11-22",
+      "home": "lokomotiv",
+      "away": "zenit",
+      "date": "2026-11-22T19:30:00+03:00",
+      "tour": 17,
+      "status": "scheduled",
+      "scoreHome": null,
+      "scoreAway": null,
+      "venue": "РЖД Арена",
+      "preview": "",
+      "report": "",
+      "updatedAt": "2026-11-11T01:23:21.858Z"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "slug": "rpl-16-tur-anons",
+      "title": "16-й тур РПЛ: расписание матчей и время начала",
+      "excerpt": "Все матчи 16-го тура РПЛ: даты, время начала по Москве, пары команд и стадионы.",
+      "body": "В 16-м туре РПЛ пройдут восемь матчей. Тур открывается 14 ноября играми в Ростове и Грозном, центральные встречи — 15 ноября: «Зенит» против ЦСКА и «Спартак» против «Динамо».\n\nВсе матчи тура доступны в разделе «Матчи» с датой, временем начала по Москве и стадионом.",
+      "date": "2026-11-10",
+      "kind": "news"
+    },
+    {
+      "id": 2,
+      "slug": "o-saite",
+      "title": "О сайте",
+      "excerpt": "Что публикует сайт: матч-центр РПЛ, анонсы и отчёты без ставок.",
+      "body": "Сайт публикует расписание, результаты и текстовые материалы о матчах РПЛ. Букмекерских ставок, коэффициентов и рекламы букмекеров на сайте нет.\n\nМатериалы проходят ручную редактуру в админке.",
+      "date": "2026-11-10",
+      "kind": "page"
+    },
+    {
+      "id": 3,
+      "slug": "kontakty",
+      "title": "Контакты",
+      "excerpt": "Связаться с редакцией сайта.",
+      "body": "По вопросам сотрудничества и исправления ошибок пишите на почту редакции.",
+      "date": "2026-11-10",
+      "kind": "page"
+    }
+  ],
+  "counters": {
+    "nextTeam": 17,
+    "nextMatch": 16,
+    "nextArticle": 4
+  }
+}
