@@ -71,11 +71,20 @@ for (const m of targets) {
   ].filter(Boolean).join('\n');
 
   try {
-    const text = await gen(`Ты спортивный редактор. Напиши анонс матча на русском: 55–75 слов, два коротких абзаца.
-Только факты из данных, ничего не выдумывай. Без ставок, коэффициентов и прогнозов на деньги. Без штампов и воды. Отвечай ТОЛЬКО текстом анонса, без пояснений и рассуждений.
+    let text = '';
+    let lastErr = null;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        text = await gen(`Ты спортивный редактор. Напиши анонс матча на русском: 55–75 слов, два коротких абзаца.
+Только факты из данных, ничего не выдумывай. Название турнира бери строго из данных. Без ставок, коэффициентов и прогнозов на деньги. Без штампов и воды. Отвечай ТОЛЬКО текстом анонса, без пояснений и рассуждений.
 Данные:\n${facts}`);
-    if (text.length < 60) throw new Error('слишком короткий');
-    if (/[A-Za-z]{4,}\s+[A-Za-z]{4,}\s+[A-Za-z]{4,}/.test(text)) throw new Error('латиница/рассуждения в ответе');
+        if (text.length < 60) throw new Error('слишком короткий');
+        if (/[A-Za-z]{4,}\s+[A-Za-z]{4,}\s+[A-Za-z]{4,}/.test(text)) throw new Error('латиница/рассуждения в ответе');
+        lastErr = null;
+        break;
+      } catch (e) { lastErr = e; await new Promise(r => setTimeout(r, 900)); }
+    }
+    if (lastErr) throw lastErr;
     m.preview = text;
     m.updatedAt = new Date().toISOString();
     ok++;

@@ -223,3 +223,13 @@ h1{margin-bottom:12px}
 .match .ad,.match-page>.ad{margin-top:0}
 
 .cover{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:16px;margin:14px 0 6px;border:1px solid var(--line)}
+
+/* ===== cards v3 ===== */
+.match{position:relative;overflow:hidden}
+.match::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--accent),transparent);opacity:.55}
+.tile{position:relative}
+.tile::after{content:'→';position:absolute;right:14px;top:14px;color:var(--muted);font-size:14px;opacity:0;transition:.15s}
+.tile:hover::after{opacity:1;transform:translateX(3px)}
+.card{position:relative;overflow:hidden}
+.card::after{content:'';position:absolute;right:-30px;bottom:-30px;width:90px;height:90px;border-radius:50%;background:rgba(62,224,127,.06)}
+table.standings tbody tr:first-child td:first-child{border-left:3px solid var(--accent)}
