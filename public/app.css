@@ -170,3 +170,48 @@ body{background-image:radial-gradient(1200px 620px at 78% -18%,rgba(62,224,127,.
 .flag.lg{width:32px;height:21px;margin-right:10px;vertical-align:-5px;border-radius:4px}
 .ct{display:flex;align-items:center;gap:9px;margin-bottom:5px}
 .tile .ct b{display:inline}
+
+/* ===== shields + a11y polish ===== */
+.shield{flex:0 0 auto;display:inline-block;vertical-align:middle;filter:drop-shadow(0 1px 2px rgba(0,0,0,.35))}
+.tn .shield{margin-right:2px}
+.scoreline .side{display:flex;align-items:center;gap:10px}
+.scoreline .side.ta-r{justify-content:flex-end;text-align:right}
+.scoreline .side b{margin-left:0}
+.scoreline .side .formb{margin-left:2px}
+.scoreline .sc{justify-self:center}
+
+/* focus visibility (WCAG) */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:8px}
+
+/* tap targets */
+nav a{display:inline-flex;align-items:center;min-height:40px;padding:0 2px}
+.btn{min-height:42px;display:inline-flex;align-items:center;justify-content:center}
+
+/* rhythm: consistent vertical scale */
+section+section{margin-top:6px}
+h1{margin-bottom:12px}
+.lead{max-width:64ch}
+
+/* sticky header depth */
+.top{box-shadow:0 1px 0 rgba(255,255,255,.04),0 10px 24px -18px #000}
+
+/* live indicator */
+.is-live{position:relative}
+.is-live::after{content:'';position:absolute;left:10px;top:50%;transform:translateY(-50%);width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(62,224,127,.16);animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+/* standings zebra + sticky first col */
+.standings tbody tr:nth-child(even) td{background:rgba(255,255,255,.015)}
+.standings tbody tr:hover td{background:rgba(62,224,127,.06)}
+
+/* links inside prose */
+.prose a,.links a{text-decoration:underline;text-decoration-color:rgba(62,224,127,.4);text-underline-offset:3px}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .match:hover{transform:none}
+}
+@media(max-width:620px){
+  .mt{font-size:14px}
+  .tn .shield{width:18px;height:20px}
+}
