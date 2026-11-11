@@ -5,3 +5,7 @@ data/store.json.tmp
 .DS_Store
 tools/*.exe
 tools/*.log
+data/store.backup.json
+tools/*.txt
+tools/*.log
+tools/*.err
