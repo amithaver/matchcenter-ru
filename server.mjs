@@ -89,7 +89,7 @@ async function handle(req, res) {
   const db = store.get();
   const method = req.method;
 
-  if (p === '/app.css' || p === '/favicon.svg') {
+  if (p === '/app.css' || p === '/favicon.svg' || p.startsWith('/covers/')) {
     const file = path.join(PUBLIC, p.slice(1));
     if (fs.existsSync(file)) {
       return send(res, 200, fs.readFileSync(file), { 'Content-Type': MIME[path.extname(file)] || 'application/octet-stream', 'Cache-Control': 'public, max-age=86400' });

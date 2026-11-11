@@ -221,3 +221,5 @@ h1{margin-bottom:12px}
 .mt .t .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
 .tn{max-width:100%}
 .match .ad,.match-page>.ad{margin-top:0}
+
+.cover{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:16px;margin:14px 0 6px;border:1px solid var(--line)}
