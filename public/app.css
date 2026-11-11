@@ -215,3 +215,9 @@ h1{margin-bottom:12px}
   .mt{font-size:14px}
   .tn .shield{width:18px;height:20px}
 }
+
+/* fix: не обрезаем щиты в строках, эллипсис только на названии */
+.mt .t{overflow:visible}
+.mt .t .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
+.tn{max-width:100%}
+.match .ad,.match-page>.ad{margin-top:0}
