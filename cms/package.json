@@ -1,0 +1,15 @@
+{
+  "name": "livefootball-cms",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "payload dev", "start": "payload start" },
+  "dependencies": {
+    "payload": "^3.0.0",
+    "@payloadcms/db-sqlite": "^3.0.0",
+    "@payloadcms/next": "^3.0.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.0"
+  }
+}

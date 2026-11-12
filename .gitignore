@@ -10,3 +10,7 @@ tools/*.txt
 tools/*.log
 tools/*.err
 dist/
+cms/node_modules/
+cms/cms.db
+cms/install*.log
+.npm-cache/
