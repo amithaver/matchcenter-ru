@@ -9,3 +9,4 @@ data/store.backup.json
 tools/*.txt
 tools/*.log
 tools/*.err
+dist/

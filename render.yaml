@@ -1,14 +1,10 @@
 services:
   - type: web
     name: live-football
-    runtime: node
+    runtime: static
     plan: free
-    region: frankfurt
-    buildCommand: "echo no-deps"
-    startCommand: "node server.mjs"
-    healthCheckPath: /healthz
+    buildCommand: "node scripts/build-static.mjs"
+    staticPublishPath: dist
     envVars:
-      - key: ADMIN_PASSWORD
-        sync: false
       - key: NODE_VERSION
         value: "22"

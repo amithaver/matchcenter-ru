@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+const db = JSON.parse(fs.readFileSync('data/store.json','utf8'));
+const view = await import('../lib/view.mjs');
+const ms = db.matches.slice(0, 30);
+let t = Date.now();
+for (const m of ms) view.matchPage(db, m);
+console.log('render 30 match pages:', Date.now()-t, 'ms');
+t = Date.now();
+for (let i=0;i<30;i++) view.home(db);
+console.log('render 30 home:', Date.now()-t, 'ms');
+t = Date.now();
+for (let i=0;i<30;i++) fs.writeFileSync('dist/t.html', view.home(db));
+console.log('write 30 files:', Date.now()-t, 'ms');
