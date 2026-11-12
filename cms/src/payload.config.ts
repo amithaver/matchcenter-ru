@@ -1,5 +1,6 @@
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
+import { ru } from '@payloadcms/translations/languages/ru'
 import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
@@ -62,6 +63,7 @@ const seo = [
 export default buildConfig({
   secret: process.env.PAYLOAD_SECRET || 'change-me',
   editor: lexicalEditor(),
+  i18n: { supportedLanguages: { ru } },
   db: sqliteAdapter({ client: { url: process.env.DATABASE_URI || 'file:./cms.db' }, push: true }),
   admin: { user: 'users', meta: { titleSuffix: ' — Live Football CMS' } },
   collections: [
