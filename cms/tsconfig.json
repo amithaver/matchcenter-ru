@@ -13,7 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{ "name": "next" }],
+    "baseUrl": ".",`n    "plugins": [{ "name": "next" }],
     "paths": {
       "@payload-config": ["./src/payload.config.ts"]
     }
