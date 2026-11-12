@@ -9,10 +9,10 @@
     "generate:types": "payload generate:types"
   },
   "dependencies": {
-    "payload": "^3.0.0",
-    "@payloadcms/db-sqlite": "^3.0.0",
-    "@payloadcms/next": "^3.0.0",
-    "@payloadcms/richtext-lexical": "^3.0.0",
+    "payload": "3.93.0",
+    "@payloadcms/db-sqlite": "3.93.0",
+    "@payloadcms/next": "3.93.0",
+    "@payloadcms/richtext-lexical": "3.93.0",
     "graphql": "^16.9.0",
     "next": "15.4.11",
     "react": "^19.0.0",
