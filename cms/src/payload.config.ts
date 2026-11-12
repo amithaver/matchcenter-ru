@@ -62,7 +62,7 @@ const seo = [
 export default buildConfig({
   secret: process.env.PAYLOAD_SECRET || 'change-me',
   editor: lexicalEditor(),
-  db: sqliteAdapter({ client: { url: process.env.DATABASE_URI || 'file:./cms.db' } }),
+  db: sqliteAdapter({ client: { url: process.env.DATABASE_URI || 'file:./cms.db' }, push: true }),
   admin: { user: 'users', meta: { titleSuffix: ' — Live Football CMS' } },
   collections: [
     { slug: 'users', auth: true, admin: { useAsTitle: 'email' }, fields: [{ name: 'name', type: 'text' }] },
